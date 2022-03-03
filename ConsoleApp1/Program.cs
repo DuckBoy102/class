@@ -16,6 +16,10 @@ namespace ConsoleApp1
             my_new_ball.set_size (int.Parse(Console.ReadLine()));
             Console.WriteLine("color?");
             my_new_ball.set_color(Console.ReadLine());
+            Console.WriteLine("type?");
+            my_new_ball.set_type(Console.ReadLine());
+            Console.WriteLine("fabric?");
+            my_new_ball.set_fabric(Console.ReadLine());
         }
     }
 }
