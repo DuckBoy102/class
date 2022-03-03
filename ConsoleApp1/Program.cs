@@ -10,6 +10,12 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
+            Ball my_new_ball = new Ball();
+            Console.WriteLine("Enter your ball detail");
+            Console.WriteLine("size?");
+            my_new_ball.set_size (int.Parse(Console.ReadLine()));
+            Console.WriteLine("color?");
+            my_new_ball.set_color(Console.ReadLine());
         }
     }
 }
